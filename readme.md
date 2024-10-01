@@ -14,6 +14,7 @@ This project is a web-based application for managing chemical supplies. It allow
   - Pack Size
   - Unit
   - Quantity
+  - Price
 - The table supports sorting by clicking on the column headers.
 
 ### 2. Add New Chemical Supply
