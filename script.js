@@ -1,19 +1,19 @@
 let chemicalData = [
-    { id: 1, name: "Ammonium Persulfate", vendor: "LG Chem", density: 3525.92, viscosity: 60.63, packaging: "Bag", packSize: 100.00, unit: "kg", quantity: 6495.18 },
-    { id: 2, name: "Caustic Potash", vendor: "Formosa", density: 3172.15, viscosity: 48.22, packaging: "Bag", packSize: 100.00, unit: "kg", quantity: 8751.90 },
-    { id: 3, name: "Dimethylaminopropylamino", vendor: "LG Chem", density: 8435.37, viscosity: 12.62, packaging: "Barrel", packSize: 75.00, unit: "L", quantity: 5964.61 },
-    { id: 4, name: "Mono Ammonium Phosphate", vendor: "Sinopec", density: 1597.65, viscosity: 76.51, packaging: "Bag", packSize: 105.00, unit: "kg", quantity: 8183.73 },
-    { id: 5, name: "Ferric Nitrate", vendor: "DowDuPont", density: 364.04, viscosity: 14.90, packaging: "Bag", packSize: 105.00, unit: "kg", quantity: 4154.33 },
-    { id: 6, name: "n-Pentane", vendor: "Sinopec", density: 4535.26, viscosity: 66.76, packaging: "N/A", packSize: "N/A", unit: "t", quantity: 6272.34 },
-    { id: 7, name: "Glycol Ether PM", vendor: "LG Chem", density: 6495.18, viscosity: 72.12, packaging: "Bag", packSize: 250.00, unit: "kg", quantity: 8749.54 },
-    { id: 8, name: "Sodium Hydroxide", vendor: "BASF", density: 2130.00, viscosity: 4.00, packaging: "Drum", packSize: 200.00, unit: "kg", quantity: 5000.00 },
-    { id: 9, name: "Hydrochloric Acid", vendor: "Dow Chemical", density: 1190.00, viscosity: 1.90, packaging: "Tank", packSize: 1000.00, unit: "L", quantity: 10000.00 },
-    { id: 10, name: "Ethanol", vendor: "Cargill", density: 789.00, viscosity: 1.20, packaging: "Barrel", packSize: 159.00, unit: "L", quantity: 3180.00 },
-    { id: 11, name: "Sulfuric Acid", vendor: "Chemours", density: 1840.00, viscosity: 26.70, packaging: "Tank", packSize: 500.00, unit: "kg", quantity: 7500.00 },
-    { id: 12, name: "Acetone", vendor: "Shell", density: 784.00, viscosity: 0.32, packaging: "Drum", packSize: 200.00, unit: "L", quantity: 4000.00 },
-    { id: 13, name: "Methanol", vendor: "Methanex", density: 792.00, viscosity: 0.59, packaging: "IBC", packSize: 1000.00, unit: "L", quantity: 15000.00 },
-    { id: 14, name: "Hydrogen Peroxide", vendor: "Solvay", density: 1450.00, viscosity: 1.25, packaging: "Drum", packSize: 200.00, unit: "kg", quantity: 2000.00 },
-    { id: 15, name: "Nitric Acid", vendor: "Yara", density: 1513.00, viscosity: 0.75, packaging: "IBC", packSize: 1000.00, unit: "kg", quantity: 12000.00 }
+    { id: 1, name: "Ammonium Persulfate", vendor: "LG Chem", density: 3525.92, viscosity: 60.63, packaging: "Bag", packSize: 100.00, unit: "kg", quantity: 6495.18, price: 1000 },
+    { id: 2, name: "Caustic Potash", vendor: "Formosa", density: 3172.15, viscosity: 48.22, packaging: "Bag", packSize: 100.00, unit: "kg", quantity: 8751.90, price: 1200 },
+    { id: 3, name: "Dimethylaminopropylamino", vendor: "LG Chem", density: 8435.37, viscosity: 12.62, packaging: "Barrel", packSize: 75.00, unit: "L", quantity: 5964.61, price: 1500 },
+    { id: 4, name: "Mono Ammonium Phosphate", vendor: "Sinopec", density: 1597.65, viscosity: 76.51, packaging: "Bag", packSize: 105.00, unit: "kg", quantity: 8183.73, price: 800 },
+    { id: 5, name: "Ferric Nitrate", vendor: "DowDuPont", density: 364.04, viscosity: 14.90, packaging: "Bag", packSize: 105.00, unit: "kg", quantity: 4154.33, price: 950 },
+    { id: 6, name: "n-Pentane", vendor: "Sinopec", density: 4535.26, viscosity: 66.76, packaging: "N/A", packSize: "N/A", unit: "t", quantity: 6272.34, price: 2000 },
+    { id: 7, name: "Glycol Ether PM", vendor: "LG Chem", density: 6495.18, viscosity: 72.12, packaging: "Bag", packSize: 250.00, unit: "kg", quantity: 8749.54, price: 1800 },
+    { id: 8, name: "Sodium Hydroxide", vendor: "BASF", density: 2130.00, viscosity: 4.00, packaging: "Drum", packSize: 200.00, unit: "kg", quantity: 5000.00, price: 750 },
+    { id: 9, name: "Hydrochloric Acid", vendor: "Dow Chemical", density: 1190.00, viscosity: 1.90, packaging: "Tank", packSize: 1000.00, unit: "L", quantity: 10000.00, price: 2500 },
+    { id: 10, name: "Ethanol", vendor: "Cargill", density: 789.00, viscosity: 1.20, packaging: "Barrel", packSize: 159.00, unit: "L", quantity: 3180.00, price: 600 },
+    { id: 11, name: "Sulfuric Acid", vendor: "Chemours", density: 1840.00, viscosity: 26.70, packaging: "Tank", packSize: 500.00, unit: "kg", quantity: 7500.00, price: 1100 },
+    { id: 12, name: "Acetone", vendor: "Shell", density: 784.00, viscosity: 0.32, packaging: "Drum", packSize: 200.00, unit: "L", quantity: 4000.00, price: 550 },
+    { id: 13, name: "Methanol", vendor: "Methanex", density: 792.00, viscosity: 0.59, packaging: "IBC", packSize: 1000.00, unit: "L", quantity: 15000.00, price: 3000 },
+    { id: 14, name: "Hydrogen Peroxide", vendor: "Solvay", density: 1450.00, viscosity: 1.25, packaging: "Drum", packSize: 200.00, unit: "kg", quantity: 2000.00, price: 900 },
+    { id: 15, name: "Nitric Acid", vendor: "Yara", density: 1513.00, viscosity: 0.75, packaging: "IBC", packSize: 1000.00, unit: "kg", quantity: 12000.00, price: 2200 }
 ];
 
 let unsavedChanges = false;
@@ -48,6 +48,7 @@ function populateTable(data) {
             <td class="editable" data-field="packSize">${item.packSize}</td>
             <td class="editable" data-field="unit">${item.unit}</td>
             <td class="editable" data-field="quantity">${item.quantity.toFixed(2)}</td>
+            <td class="editable" data-field="price">${item.price.toFixed(2)}</td>
         `;
     });
 }
@@ -104,7 +105,7 @@ function makeEditable(cell) {
         const id = parseInt(row.cells[1].textContent);
         const item = chemicalData.find(item => item.id === id);
         if (item) {
-            item[field] = ['density', 'viscosity', 'packSize', 'quantity'].includes(field) ? parseFloat(newValue) : newValue;
+            item[field] = ['density', 'viscosity', 'packSize', 'quantity', 'price'].includes(field) ? parseFloat(newValue) : newValue;
         }
         unsavedChanges = true;
     }
@@ -136,7 +137,8 @@ document.getElementById('addRow').addEventListener('click', () => {
         packaging: "N/A",
         packSize: 0,
         unit: "N/A",
-        quantity: 0
+        quantity: 0,
+        price: 0
     };
     chemicalData.push(newItem);
     populateTable(chemicalData);
